@@ -663,15 +663,16 @@ body {
 
 .container-flex {
   display: flex;
+  justify-content: space-between;
+}
+
+.footer-left-right-side-wrapper {
+  display: flex;
   align-items: baseline;
 }
 
 .footer-left-side {
   margin-right: 70px;
-}
-
-.footer-right-side {
-  margin-right: 93px;
 }
 
 .title-footer {
@@ -827,6 +828,8 @@ body {
 
 /*===========================/BACKDROP======================*/
 
+/*==========================MODAL FORM======================*/
+
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -966,3 +969,5 @@ body {
 
   align-self: center;
 }
+
+/*==========================/MODAL FORM======================*/
