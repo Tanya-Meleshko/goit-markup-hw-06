@@ -667,6 +667,10 @@ margin-bottom: 9px;
     margin-right: 70px;
 }
 
+.footer-right-side {
+    margin-right: 93px;
+}
+
 .title-footer {
     font-weight: 700;
     font-size: 14px;
@@ -765,8 +769,6 @@ margin-bottom: 9px;
 
 /*===========================/BACKDROP======================*/
 
-
-
 .modal-form {
     display: flex;
     flex-direction: column;
@@ -779,6 +781,16 @@ margin-bottom: 9px;
 
 .modal-close-btn-icon {
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    margin-bottom: 12px;
 }
 
 .modal-form-field {
